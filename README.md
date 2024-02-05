@@ -1,15 +1,10 @@
-# **FullCycle 3.0 - Docker Node.js Challenge**
-![img](./img/logo.png)
+# **FullCycle 3.0 - Docker Nginx + Node.js + MySQL Challenge**
 
 Table of contents
 ==========
 <!--ts-->
    * [Desafio](#desafio)
    * [Requisito](#requisito)
-   * [Imagem no dockerhub](#imagem-no-dockerhub)
-   * [Imagem local](#imagem-local)
-   * [Executando a imagem](#executando-a-imagem)
-
 <!--te-->
 
 ## Desafio:
@@ -29,9 +24,5 @@ Disponibilizar o acesso ao nginx na porta 8080.
 ```
 docker-compose up -d 
 ```
-![img](./img/)
-
-# O que preciso fazer:
-- Subir o mysql em Container e criar a base e tabela
-- Subir o nodejs em container e conectar ao banco de dados e inserir os dados na tabela.
-- Subir o nginx em container e conectá-lo como proxy reverso ao nodejs. O nginx dever responder na porta 8080
+Acessando o browser:
+![img](./img/localhost8080.png)
